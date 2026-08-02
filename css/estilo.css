@@ -98,3 +98,20 @@ url("../img/hero.jpg");
     padding:14px 36px;
 
 }
+
+.navbar{
+    background:transparent;
+    transition:.4s;
+    padding:20px 0;
+}
+
+.navbar-brand{
+    font-family:"Cormorant Garamond", serif;
+    font-size:2rem;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:15px;
+    letter-spacing:1px;
+}
