@@ -143,3 +143,30 @@ url("../img/hero.jpg");
     color:#16324F;
 
 }
+.scroll-indicator{
+
+    margin-top:60px;
+
+    font-size:2rem;
+
+    color:white;
+
+    animation:float 2s infinite;
+
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
