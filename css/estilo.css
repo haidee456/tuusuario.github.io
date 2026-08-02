@@ -115,3 +115,31 @@ url("../img/hero.jpg");
     margin-left:15px;
     letter-spacing:1px;
 }
+
+.hero-button{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    padding:16px 42px;
+
+    border:2px solid white;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    transition:.3s;
+
+}
+
+.hero-button:hover{
+
+    background:white;
+
+    color:#16324F;
+
+}
