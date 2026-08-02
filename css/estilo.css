@@ -8,13 +8,6 @@ body{
 
 }
 
-/* ---------- NAVBAR ---------- */
-
-.navbar{
-
-    background:white;
-
-}
 
 /* ---------- HERO ---------- */
 
@@ -100,7 +93,10 @@ url("../img/hero.jpg");
 }
 
 .navbar{
+
     background:transparent;
+    width:100%;
+    z-index:1000;
     transition:.4s;
     padding:20px 0;
 }
@@ -168,5 +164,14 @@ url("../img/hero.jpg");
     100%{
         transform:translateY(0);
     }
+
+}
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.20);
 
 }
